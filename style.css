@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+:root{
+    --color : blue;
+}
+main{
+    height: 100vh;
+
+}
+.container{
+    background: wheat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    padding: 1em 0;
+}
+
+.title{
+
+}
+
+.title h2{
+
+}
+
+.underline{
+    padding: 12px;
+    border-top: var(--color) 2px solid ;
+    width: 200px;
+}
+.review{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: whitesmoke;
+    padding: 2em 1em;
+   
+}
+
+.img-container{
+}
+
+img{
+
+    width: 300px;
+    height: 300px;
+    border-radius:20% ;
+
+}
+
+#job{
+    color: #333;
+    text-transform: uppercase;
+}
+
+#info{
+
+    max-width: 470px;
+    padding:1em 1em;
+    margin: 2em 0;
+    align-content: center;
+    height: 160px;
+    font-family: monospace;
+
+
+}
+
+button{
+    padding:.5em 3em;
+}
+
+
